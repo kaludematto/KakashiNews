@@ -10,7 +10,7 @@ const c = new Crawler({
             const $ = res.$;
             // $ is Cheerio by default
             //a lean implementation of core jQuery designed specifically for the server
-            console.log($('title').text());
+            console.log($('#').text());
         }
         done();
     }
